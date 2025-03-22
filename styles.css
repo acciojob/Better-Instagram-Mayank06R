@@ -61,3 +61,20 @@ p {
 button {
   margin: 20px;
 }
+
+.image {
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  background-size: cover;
+}
+
+.image:active {
+  cursor: grabbing;
+  opacity: 0.6; /* Feedback for the user during drag */
+}
